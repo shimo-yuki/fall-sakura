@@ -9,9 +9,9 @@ Gem::Specification.new do |spec|
   spec.version     = FallSakura::VERSION
   spec.authors     = ["shimo-yuki"]
   spec.email       = ["c0116138b7@edu.teu.ac.jp"]
-  spec.homepage    = "TODO"
-  spec.summary     = "TODO: Summary of FallSakura."
-  spec.description = "TODO: Description of FallSakura."
+  spec.homepage    = "https://github.com/shimo-yuki/fall-sakura"
+  spec.summary     = " Summary of FallSakura."
+  spec.description = " Description of FallSakura."
   spec.license     = "MIT"
 
   # Prevent pushing this gem to RubyGems.org. To allow pushes either set the 'allowed_push_host'
@@ -23,7 +23,7 @@ Gem::Specification.new do |spec|
       "public gem pushes."
   end
 
-  spec.files = Dir["{app,config,db,lib}/**/*", "MIT-LICENSE", "Rakefile", "README.md"]
+  spec.files = Dir["{app,config,db,lib, vender}/**/*", "MIT-LICENSE", "Rakefile", "README.md"]
 
   spec.add_dependency "rails", "~> 5.2.2", ">= 5.2.2.1"
 

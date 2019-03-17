@@ -1,4 +1,4 @@
-require "fall_sakura/railtie"
+require "fall_sakura/engine"
 
 module FallSakura
   # Your code goes here...

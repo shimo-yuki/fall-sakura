@@ -1,12 +1,12 @@
-require 'sakura_fall/view_helper'
+require 'fall_sakura/view_helper'
 
-module SakuraFall
+module FallSakura
   class Engine < ::Rails::Engine
-    isolate_namespace SakuraFall
+    isolate_namespace FallSakura
 
-    initializer 'sakura_fall.action_view_helpers' do
+    initializer 'fall_sakura.action_view_helpers' do
       ActiveSupport.on_load :action_view do
-        include SakuraFall::ViewHelper
+        include FallSakura::ViewHelper
       end
     end
   end

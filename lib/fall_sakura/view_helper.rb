@@ -1,6 +1,6 @@
 module FallSakura
     module ViewHelper
-      def fall_sakura
+      def sakura
         content_tag(:section, "", id: "sakura") do
             content_tag(:div, "", class: "inner") do
                 concat content_tag(:div, "", class: "flake1")
